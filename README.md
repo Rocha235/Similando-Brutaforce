@@ -5,8 +5,11 @@ Vm = Virtual Box Oracle
 OS = Kali Linux e Metasploitable 2
 
 Força Bruta em FTP
+
 1 -  verificar o ip de rede (ipconfig) , verificado o ip da rede, vamos “pinga” a maquina que esta conectada a nossa rede (ping -c 3 IP), -c 3 – quantidades de pacotes de verificação se esta conectado a outra máquina.
+
 2 – Verificar quais serviços estão disponíveis para ataque
+
 Utilizando o Nmap, procuramos as portas (21,22,80,139 e 445) através do comando (nmap -sV -p 21 22 80 139 445 “+ IP alvo”) que são as portas utilizadas para o ataque, após o scanner verificamos as portas abertas e suas versões
 3 – Verificando porta aberta
 Porta alvo aberta (21 - FTP), utilizamos o comando (ftp IP alvo) recebendo mensagem de conectado sabemos que o serviço realmente está ativo.
