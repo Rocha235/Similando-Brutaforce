@@ -1,0 +1,24 @@
+FLAGS Kali:
+
+-h = Host
+
+-U = User
+
+-P = Password 
+
+-M = Modulo de ataque específico.
+
+-t = “tracks” simulado quantidade de host’s
+
+-T = até x host’s em paralelo
+
+-a = ativa as técnicas possíveis de enumeração
+
+Tee = gravar saída do comando em texto
+
+
+Nmap: 
+
+-sV = Versão do serviço
+
+-p = Portas
